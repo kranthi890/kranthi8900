@@ -1,0 +1,19 @@
+.nav{
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px;
+    /* background-image:linear-gradient(to left,white 0%,rgb(48, 48, 115)); */
+}
+/* .container-fluid{
+    background-image:linear-gradient(to left,white 0%,rgb(48, 48, 115));
+} */
+/* .body{
+    background-image:linear-gradient(to left,white 0%,rgb(48, 48, 115));
+} */
+/* .Styles{
+    /* background-color: blue; */
+
+      
+

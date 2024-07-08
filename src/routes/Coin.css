@@ -1,0 +1,129 @@
+.coin-container .content {
+    /* max-width: 1550px;  */
+     margin: 1rem auto; 
+     padding: .7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#283b63;
+    box-shadow: 0px 0px 12px rgb(86, 102, 182);
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+}
+
+.rank {
+    margin: .5 0;
+    color:blue;
+    text-align: center;
+}
+
+.rank-btn {
+    border: 1px solid white;
+    box-shadow: 0px 0px 8px white;
+    /* background-color: #283b63; */
+    border-radius: 8px;
+    padding: .2rem;
+    text-align: center;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* .info .coin-heading {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+} */
+
+.info .coin-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p {
+    padding-right: 1rem;
+}
+
+table {
+    margin: .5rem 0;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #283b63;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+    padding-left: 20%;
+}
+
+.stats .row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #283b63;
+    /* margin: .6rem 0; */
+    /* grid-gap: 2rem; */
+    /* padding-bottom: .5rem; */
+}
+
+/* .stats .row p:first-child {
+    color: #d3d3d3;
+} */
+/* .about{
+    background-image: url('https://academy.education.investing.com/wp-content/uploads/2022/03/bitcoin-what-is-crypto-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.about h3 {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 700px) {
+    .coin-container .content {
+        max-width: 100%;
+        margin: .5rem;
+        padding: 0 .5rem;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    td,th {
+        padding: 3px;
+    }
+
+    .rank {
+        margin: .5rem;
+    }
+
+    .rank-btn {
+        margin: .5rem 0;
+    }
+}
+.coin-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .coin-images img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  

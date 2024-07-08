@@ -1,0 +1,41 @@
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.content {
+  flex: 2;
+  font-size: 23px;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Cinzel', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'PT Serif', serif;
+  font-family: 'Rowdies', cursive;
+}
+
+.title {
+  color: #1A237C;
+  font-family: 'Cinzel', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'PT Serif', serif;
+font-family: 'Rowdies', cursive;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
