@@ -1,0 +1,67 @@
+.community {
+  /* max-width: 600px; */
+  /* margin: 0 auto; */
+  padding: 50px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 80px;
+}
+
+.rule-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
+}
+
+.rule-section {
+  border: 3px solid #000000;
+  border-radius: 4px;
+  padding: 10px;
+  background-image: url('https://wallpaperaccess.com/full/1836569.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.rule-heading {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.rule-description {
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.rule-section:nth-child(1) .rule-heading {
+  background-color: #FFCDD2;
+  color: #C62828;
+}
+
+.rule-section:nth-child(2) .rule-heading {
+  background-color: #BBDEFB;
+  color: #1565C0;
+}
+
+.rule-section:nth-child(3) .rule-heading {
+  background-color: #C8E6C9;
+  color: #2E7D32;
+}
+
+.rule-section:nth-child(4) .rule-heading {
+  background-color: #FFF9C4;
+  color: #FFA000;
+}
+
+.rule-section:nth-child(5) .rule-heading {
+  background-color: #E1BEE7;
+  color: #6A1B9A;
+}

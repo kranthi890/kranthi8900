@@ -1,0 +1,144 @@
+.crypto-converter {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crypto-converter h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a237e;
+    font-size: 28px;
+  }
+    
+  .converter-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .converter-inputs label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #1a237e;
+    font-size: 18px;
+  }
+  
+  .converter-inputs input,
+  .converter-inputs select {
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .convert-button {
+    padding: 12px 20px;
+    background-color: #1a237e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .conversion-result {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .result-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .amount {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a237e;
+  }
+  
+  .coin {
+    font-size: 24px;
+    color: #1a237e;
+    margin-left: 5px;
+  }
+  
+  .popular-conversions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .popular-conversion {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  .bitcoin-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .conversion-coin {
+    font-size: 16px;
+    color: #1a237e;
+    margin-right: 5px;
+  }
+  
+  .conversion-arrow {
+    font-size: 20px;
+    color: #1a237e;
+    margin: 0 5px;
+  }
+  .popular-conversions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 70px;
+    /* margin-bottom: 110px; */
+  }
+  
+  .popular-conversion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .popular-conversion img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .popular-conversion-content {
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .popular-conversion-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
